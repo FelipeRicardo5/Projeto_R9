@@ -1,6 +1,6 @@
 import styles from '../form/Input.module.css'
 
-function Input({name, placeholder, text}) {
+function Input({name, placeholder, text, type, style}) {
     return(
         <div>
             {/* Se a aplicação se desenvolver vou precisar adicionar mais props de estilização para o back-end */}
@@ -8,6 +8,8 @@ function Input({name, placeholder, text}) {
             <input
             name={name}
             placeholder={placeholder}
+            type={type}
+            style={style}
             />
 
         </div>
