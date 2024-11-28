@@ -4,7 +4,7 @@ import SubmitButton from '../../components/form/SubmitButton'
 
 import LogoReacao from '../../assets/reacao.png'
 import User from '../../assets/password.png'
-
+import Imglandingpage from '../../assets/landingpage.png'
 
 function LandingPage() {
     return (
@@ -37,7 +37,7 @@ function LandingPage() {
                     />
                 </div>
                 <div className={styles.campImg} >
-                    <img src={User} />
+                    <img className={styles.Imglandingpage} src={Imglandingpage} />
                 </div>
 
             </main>
