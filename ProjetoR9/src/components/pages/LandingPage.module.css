@@ -2,16 +2,17 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: black;
 }
 
 .navbar {
     display: flex;
-    position: fixed; /* Fixa o nav no topo da tela */
+    position: fixed;
     top: 0; 
     justify-content: space-around;
     align-items: center;
     width: 100vw; 
-    height: 20vh;
+    height: 15vh;
     font-weight: 700;
     top: 0;
     background-color: rgb(255, 255, 255); 
@@ -22,4 +23,25 @@ body {
     margin-left: 3em;
     text-align: left;
     color: rgb(0, 0, 0);
+  }
+
+  .navbar a {
+    
+    transition: 0.5s;    
+  }
+
+  .navbar a:hover {
+    color: #EF6B01;
+    font-weight: 700;
+  }
+
+  .campText {
+    flex: 1;
+    height: 65vh;
+    background-color: #EF6B01;
+    text-align: left;
+  }
+  .campImg {
+    flex: 2;
+    background-color: blue;
   }
